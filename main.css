@@ -1,0 +1,27 @@
+#main{
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+bottom:0;
+top:0;
+left:0;
+right:0;
+}
+#clock{
+  background-color: #1C2833;
+  padding:25px;
+  border-radius: 25px;
+  display: inline-block;
+box-shadow:5px 5px 0px 5px #2C3E50;
+}
+
+#hour,#minute,#second,#ampm{
+  color:#B03A2E;
+  font-family: 'Cute Font', cursive;
+  display: inline;
+  font-size: 100px;
+  padding: 10px;
+  margin:10px;
+  background-color: #2C3E50 ;
+}
